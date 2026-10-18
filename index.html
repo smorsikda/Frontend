@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#010a13" />
+    <meta name="description" content="Presentación digital de Miguel Correa, estudiante de Ingeniería de Sistemas." />
+    <title>Presentación digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="site dark">
+      <nav class="topbar" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">
+          <span class="brand-mark">MC</span><span>Presentación digital</span>
+        </a>
+        <div class="nav-links">
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#mis-intereses">Intereses</a>
+          <a href="#enlaces">Enlaces</a>
+        </div>
+        <div class="nav-actions">
+          <button class="icon-button theme-button" id="theme-toggle" type="button" aria-label="Activar tema claro">☼</button>
+        </div>
+      </nav>
+
+      <header class="hero" id="inicio">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PRESENTACIÓN PERSONAL</div>
+          <h1>Hola, soy<br /><span>Miguel Correa</span><i class="wave" aria-hidden="true">✳</i></h1>
+          <p class="hero-role">Estudiante de Ingeniería de Sistemas</p>
+          <p class="hero-intro">Estudio Ingeniería de Sistemas y me entusiasman los retos que me hacen aprender algo nuevo, con el fin de ampliar mis conocimientos.</p>
+          <a class="primary-link" href="#mis-intereses">Conoce mis intereses <span aria-hidden="true">↓</span></a>
+          <div class="hero-meta"><span><span class="pin" aria-hidden="true">✳</span> Nicaragua</span><span class="meta-divider"></span><span>Estudiante</span></div>
+        </div>
+        <div class="hero-art" aria-label="Fotografía de Miguel Correa">
+          <div class="photo-frame"><img src="./miguel-profile.png" alt="Miguel Correa, estudiante de Ingeniería de Sistemas" /></div>
+          <span class="orbit orbit-one" aria-hidden="true">✳</span><span class="orbit orbit-two" aria-hidden="true">✦</span>
+        </div>
+        <div class="hero-index" aria-hidden="true">01 <span></span> 03</div>
+      </header>
+
+      <section class="about section-wrap" id="sobre-mi">
+        <div class="section-heading"><span class="section-kicker">01 — SOBRE MÍ</span><span class="heading-line"></span></div>
+        <div class="about-grid">
+          <h2>Ingeniería<br />y aprendizaje.</h2>
+          <div class="about-copy"><p>Me entusiasman los retos que me enseñan algo nuevo. Cada desafío es una oportunidad para ampliar mis conocimientos y seguir creciendo como futuro profesional.</p></div>
+          <div class="about-aside"><span class="aside-number">01</span><span>estudiante<br />en constante<br />aprendizaje</span></div>
+        </div>
+      </section>
+
+      <section class="interests section-wrap" id="mis-intereses">
+        <div class="section-heading"><span class="section-kicker">02 — LO QUE ME GUSTA</span><span class="heading-line"></span></div>
+        <div class="interests-title"><h2>Mis intereses<span>.</span></h2><p>Temas y actividades<br />que me interesan.</p></div>
+        <ul class="interest-list">
+          <li class="interest-item"><span class="interest-icon" aria-hidden="true">✦</span><h3 class="interest-name">Ingeniería de Sistemas</h3><span class="interest-number">01</span></li>
+          <li class="interest-item"><span class="interest-icon" aria-hidden="true">✧</span><h3 class="interest-name">Aprender cosas nuevas</h3><span class="interest-number">02</span></li>
+          <li class="interest-item"><span class="interest-icon" aria-hidden="true">✧</span><h3 class="interest-name">Resolver retos</h3><span class="interest-number">03</span></li>
+          <li class="interest-item"><span class="interest-icon" aria-hidden="true">✦</span><h3 class="interest-name">League of Legends · Hierro IV</h3><span class="interest-number">04</span></li>
+        </ul>
+      </section>
+
+      <section class="favorites section-wrap" id="enlaces">
+        <div class="section-heading"><span class="section-kicker">03 — MIS ENLACES</span><span class="heading-line"></span></div>
+        <div class="favorites-head"><div><h2>Enlaces<span>.</span></h2><p>League of Legends y GitHub.</p></div></div>
+        <ul class="favorite-grid">
+          <li><a class="favorite-card" href="https://www.leagueoflegends.com/es-mx/download/" target="_blank" rel="noreferrer"><span class="favorite-top"><span class="favorite-icon" aria-hidden="true">✦</span><span class="favorite-count">01</span></span><h3 class="favorite-name">Descargar LoL <span aria-hidden="true">↗</span></h3><span class="favorite-note">Página oficial de League of Legends</span></a></li>
+          <li><a class="favorite-card" href="https://github.com/smorsikda" target="_blank" rel="noreferrer"><span class="favorite-top"><span class="favorite-icon" aria-hidden="true">GH</span><span class="favorite-count">02</span></span><h3 class="favorite-name">Mi GitHub <span aria-hidden="true">↗</span></h3><span class="favorite-note">Proyectos de Miguel Correa</span></a></li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-top"><span class="footer-mark">MC</span><a class="footer-github" href="https://github.com/smorsikda" target="_blank" rel="noreferrer">GitHub de Miguel Correa <span aria-hidden="true">↗</span></a></div>
+        <div class="footer-bottom"><span>PORTAL PERSONAL · DISEÑO DE SISTEMAS EN INTERNET</span><a href="#inicio">Volver arriba ↑</a><span>Miguel Correa</span></div>
+      </footer>
+    </main>
+    <script type="module" src="./src/site.js"></script>
+  </body>
+</html>
